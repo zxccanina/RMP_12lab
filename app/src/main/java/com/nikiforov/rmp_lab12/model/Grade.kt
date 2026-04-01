@@ -1,0 +1,9 @@
+package com.nikiforov.rmp_lab12.model
+
+import androidx.annotation.DrawableRes
+
+data class Grade(
+    @DrawableRes val imageId: Int,
+    val pointsPerClick: Int,
+    val threshold: Int
+)
